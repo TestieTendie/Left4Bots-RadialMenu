@@ -1,0 +1,231 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"#L4D_rosetta_letsgo"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"#L4D_rosetta_youtakelead"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"#L4D_rosetta_hurry"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"#L4D_rosetta_nicejob"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"#L4D_rosetta_waithere"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerToTheRescue"
+			"text"		"#L4D_rosetta_totherescue"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"#L4D_rosetta_becareful"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerImWithYou"
+			"text"		"#L4D_rosetta_withyou"
+		}	
+	}
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerTaunt"
+			"text"		"#L4D_rosetta_taunt"
+		}
+
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"#L4D_rosetta_negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"#L4D_rosetta_no"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"#L4D_rosetta_sorry"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"#L4D_rosetta_yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"#L4D_rosetta_thankyou"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Left4Bots,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerLook"
+			"text"		"Call"
+		}
+		"North"
+		{
+			"command"	"vocalize iMT_PlayerSuggestHealth"
+			"text"		"Heal yourself"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerEmphaticGo"
+			"text"		"Use/Take"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"Follow me"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"Lead/Scavenge"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"Hold position"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerAnswerLostCall"
+			"text"		"Ask for items"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"Cancel/Hurry"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize AskForHealth2"
+			"text"		"Heal me"
+		}	
+	}
+    //--------------------------------------------------------------
+    "Left4Bots2,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerLook"
+			"text"		"Call"
+		}
+		"North"
+		{
+			"command"	"say bots warp"
+			"text"		"Warp here"
+		}
+		"NorthEast"
+		{
+			"command"	"say bots heal"
+			"text"		"Everybody heal"
+		}	
+		"East"
+		{
+			"command"	"say bots lead"
+			"text"		"Bots lead"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerWarnWitch"
+			"text"		"Crown Witch"
+		}	
+		"South"
+		{
+			"command"	"say bots die"
+			"text"		"Die"
+		}
+		"SouthWest"
+		{
+			"command"	"say empty command"
+			"text"		"Cancel defib"
+		}
+		"West"
+		{
+			"command"	"say bots throw"
+			"text"		"Throw"
+		}
+		"NorthWest"
+		{
+			"command"	"say bots tempheal"
+			"text"		"Temporary healing"
+		}	
+	}
+}

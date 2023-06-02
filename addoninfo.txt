@@ -1,0 +1,34 @@
+// The addoninfo.txt file is a metadata file that is required by all Left 4 Dead Add-ons.
+
+"AddonInfo"
+{
+addontitle "Left 4 Bots Radial Menu" // Add-on title that shows up in Add-ons list. ~20 chars max
+addonversion 1.0 // Add-on version.
+addontagline "English version of Toranks' Left 4 Bots Vocalizer with some minor tweaks added" // Add-on tagline or wrap-up- a short description. ~100 chars max
+addonauthor "Not A Grill" // Name/alias of the author
+addonauthorSteamID "76561198431278884" // Steam Profile URL of author or group
+
+addonContent_Campaign 0 //This addon provides muliple connected maps with a finale
+
+addonURL0 "" //An html home page for the add-on that includes a download link.
+
+// short description that appears in the Add-on list screen...
+addonDescription "A radial menu for the Left 4 Bots addon"
+
+addonContent_Script 1
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 //This Add-on provides new props,
+addonContent_Prefab 0 //Provides new prefabs
+
+addonContent_BackgroundMovie 0 //Provides a replacement for the background movie.
+addonContent_Survivor 0 //Provides a new survivor model. 0=false, 1=true, String in quotes if replaces specific single character, i.e. "Francis"
+addonContent_BossInfected 0 //Provides a new boss infected model. Break these out?
+addonContent_CommonInfected 0 //Provides a new common infected model
+addonContent_WeaponModel 0 //Provides a new appearance to existing weapons, but does not change their function
+addonContent_weapon 0 //provides new weapons or new zombie killing functionality, i.e. guns, explosives, booby traps, hot tar,
+addonContent_Skin 0 //0 if no new skin textures for existing models. 1 if multiple skin pack. String in quotes if specific single skin
+addonContent_Spray 0 //Provides new sprays.
+addonContent_Map 0 //Add-on provides a standalone map
+
+}

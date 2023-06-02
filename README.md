@@ -1,8 +1,9 @@
-# [Left4Bots Radial Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=2778829108)
-Sorse code for [Left4Bots Radial Menu](https://steamcommunity.com/sharedfiles/filedetails/?id=2778829108)
+<h1 align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2778829108">Left4Bots Radial Menu</a></h1>
 
+<p align="center">Sorse code for <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2778829108">Left4Bots Radial Menu</a></p>
 
-# Workshop item description 
+​
+<h1 align="center">Workshop item description</h1>
 
 [MIT Licensed Sorse code on github](https://github.com/TestieTendie/Left4Bots-RadialMenu)
 
@@ -18,4 +19,4 @@ You can do so by reading [this guide](https://steamcommunity.com/sharedfiles/fil
 
 > Before reporting a <u><b>bug</b></u>, please refer to the [demo video](https://youtu.be/1cUDYod58A0), verify that the issue is not within the [Left 4 Bots](https://steamcommunity.com/workshop/filedetails/?id=2279814689) addon itself by unsubscribing and resubscribing to it as well as [Left4Lib](https://steamcommunity.com/sharedfiles/filedetails/?id=2634208272), verify that you aren't using multiple AI addons as even though they don't conflict with each other in the addons section, they are modifying the AI behavior, so their code might be clashing. Lastly check the [Chat Commands](https://steamcommunity.com/workshop/filedetails/discussion/2279814689/2965019884822668594/) page for detailed instructions on how the vocalizer commands work, all bindings have been tested and all of them work.
 
-<h3>Note that some commands require you to call the bot before giving them an instruction and that the bot's listening state will be aborted if the order is not given correctly (i.e. telling a bot to interact with a button without aiming at that button), the context forces the bot to focus on something else or you take too long to issue the command.</h3>
+<h4>Note that some commands require you to call the bot before giving them an instruction and that the bot's listening state will be aborted if the order is not given correctly (<i>i.e. telling a bot to interact with a button without aiming at that button</i>), the context forces the bot to focus on something else or you take too long to issue the command.</h4>
